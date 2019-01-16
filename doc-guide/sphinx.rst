@@ -1,12 +1,7 @@
 介绍
 ============
 
-The Linux kernel 使用 `Shpinx`_ 来生成
-
-The Linux kernel uses `Sphinx`_ to generate pretty documentation from
-`reStructuredText`_ files under ``Documentation``. To build the documentation in
-HTML or PDF formats, use ``make htmldocs`` or ``make pdfdocs``. The generated
-documentation is placed in ``Documentation/output``.
+The Linux kernel 使用 `Shpinx`_ 从 ``Documentation`` 目录中的 `reStructuredText`_ 文件来生成美观的文档。为了创建HTML或PDF格式的文档，使用 ``make htmldocs`` 或 ``make pdfdocs`` 命令。生成的文档存放在 ``Documentation/output`` 目录下。
 
 .. _Sphinx: http://www.sphinx-doc.org/
 .. _reStructuredText: http://docutils.sourceforge.net/rst.html
