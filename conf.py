@@ -256,20 +256,20 @@ htmlhelp_basename = 'TheLinuxKerneldoc'
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
-'papersize': 'a4paper',
+#'papersize': 'a4paper',
 
 # The font size ('10pt', '11pt' or '12pt').
-'pointsize': '11pt',
+#'pointsize': '11pt',
 
 # Latex figure (float) alignment
 #'figure_align': 'htbp',
 
 # Don't mangle with UTF-8 chars
-'inputenc': '',
-'utf8extra': '',
+#'inputenc': '',
+#'utf8extra': '',
 
 # Additional stuff for the LaTeX preamble.
-    'preamble': '''
+    'preamble': r'''
 	% Use some font with UTF-8 support with XeLaTeX
         \\usepackage{fontspec}
         \\setsansfont{DejaVu Sans}
